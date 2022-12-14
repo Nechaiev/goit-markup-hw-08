@@ -2,6 +2,8 @@
 
 @import "./base/common";
 
+@import "./utils/mixins";
+
 @import "./base/reset";
 
 @import "./utils/hide";
@@ -27,5 +29,7 @@
 @import "./layouts/footer";
 
 @import "./layouts/portfolio";
+
+@import "./components/burger-nenu";
 
 @import "./components/modal";

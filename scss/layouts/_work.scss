@@ -21,4 +21,9 @@
     position: relative;
     width: calc((100% - 60px) / 3);
   }
+  display: none;
+    @include desktop {
+      display: block;
+      padding-bottom: 94px;
+    }
 }
