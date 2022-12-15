@@ -46,70 +46,6 @@
             </li>
           </ul>
         </nav>
-
-        <button
-          class="menu-toggle js-open-menu nav__burger"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg class="mob-close" width="40" height="40">
-            <use href="./images/mob.svg#icon-burger"></use>
-          </svg>
-        </button>
-
-        <div class="menu-container flex js-menu-container" id="mobile-menu">
-          <div>
-            <button class="menu-toggle js-close-menu">
-              <svg class="mob-close" width="40" height="40">
-                <use href="./images/mob.svg#icon-close_burger"></use>
-              </svg>
-            </button>
-
-            <div class="mobile-menu">
-              <div class="mobile-nav">
-                <ul class="mobile-nav__list list">
-                  <li class="mobile-nav__item">
-                    <a href="" class="mobile-nav__link link mobile-current"
-                      >Студія</a
-                    >
-                  </li>
-                  <li class="mobile-nav__item">
-                    <a href="" class="mobile-nav__link link">Портфоліо</a>
-                  </li>
-                  <li class="mobile-nav__item">
-                    <a href="" class="mobile-nav__link link">Контакти</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <ul class="mobile-contakt list">
-                  <li class="mobile-contakt-mobile">
-                    <a href="" class="link mobile-tel">+38 096 111 11 11</a>
-                  </li>
-                  <li>
-                    <a href="" class="link mobile-mail">info@devstudio.com</a>
-                  </li>
-                </ul>
-
-                <ul class="mobile-social list">
-                  <li class="mobile-sociale__item">
-                    <a href="" class="mobile-social__link link">Instagram</a>
-                  </li>
-                  <li class="mobile-sociale__item">
-                    <a href="" class="mobile-social__link link">Twitter</a>
-                  </li>
-                  <li class="mobile-sociale__item">
-                    <a href="" class="mobile-social__link link">Facebook</a>
-                  </li>
-                  <li class="mobile-sociale__item">
-                    <a href="" class="mobile-social__link link">LinkedIn</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <ul class="header-contact list">
           <li class="header-contact__item">
             <a
@@ -131,6 +67,66 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu nav__burger"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mob-close" width="40" height="40">
+            <use href="./images/mob.svg#icon-burger"></use>
+          </svg>
+        </button>
+
+        <div class="menu-container flex js-menu-container" id="mobile-menu">
+          <button class="menu-toggle js-close-menu">
+            <svg class="mob-close" width="40" height="40">
+              <use href="./images/mob.svg#icon-close_burger"></use>
+            </svg>
+          </button>
+
+          <div class="mobile-menu">
+            <div class="mobile-nav">
+              <ul class="mobile-nav__list list">
+                <li class="mobile-nav__item">
+                  <a href="" class="mobile-nav__link link mobile-current"
+                    >Студія</a
+                  >
+                </li>
+                <li class="mobile-nav__item">
+                  <a href="" class="mobile-nav__link link">Портфоліо</a>
+                </li>
+                <li class="mobile-nav__item">
+                  <a href="" class="mobile-nav__link link">Контакти</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="mobile-contakt list">
+                <li class="mobile-contakt-mobile">
+                  <a href="" class="link mobile-tel">+38 096 111 11 11</a>
+                </li>
+                <li>
+                  <a href="" class="link mobile-mail">info@devstudio.com</a>
+                </li>
+              </ul>
+
+              <ul class="mobile-social list">
+                <li class="mobile-sociale__item">
+                  <a href="" class="mobile-social__link link">Instagram</a>
+                </li>
+                <li class="mobile-sociale__item">
+                  <a href="" class="mobile-social__link link">Twitter</a>
+                </li>
+                <li class="mobile-sociale__item">
+                  <a href="" class="mobile-social__link link">Facebook</a>
+                </li>
+                <li class="mobile-sociale__item">
+                  <a href="" class="mobile-social__link link">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -145,9 +141,10 @@
       </section>
 
       <!-- Список приеимуществ -->
-      <!-- <section class="features">
+      <section class="features">
         <div class="container">
           <h2 class="hidden-title">Особливості</h2>
+
           <ul class="features-list list">
             <li class="features-item">
               <div class="features-icon-fon">
@@ -155,45 +152,44 @@
                   <use href="./images/iconsprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-
               <h3 class="features-title">увага до деталей</h3>
               <p class="features-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
+
             <li class="features-item">
               <div class="features-icon-fon">
                 <svg class="features-icon" width="70" height="70">
                   <use href="./images/iconsprite.svg#icon-clock"></use>
                 </svg>
               </div>
-
               <h3 class="features-title">пунктуальність</h3>
               <p class="features-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
+
             <li class="features-item">
               <div class="features-icon-fon">
                 <svg class="features-icon" width="70" height="70">
                   <use href="./images/iconsprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-
               <h3 class="features-title">планування</h3>
               <p class="features-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
+
             <li class="features-item">
               <div class="features-icon-fon">
                 <svg class="features-icon" width="70" height="70">
                   <use href="./images/iconsprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
-
               <h3 class="features-title">сучасні технології</h3>
               <p class="features-text">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -202,10 +198,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Список занятий -->
-      <!-- <section class="work">
+      <section class="work">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work-list list">
@@ -235,10 +231,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Наша команда -->
-      <!-- <section class="team">
+      <section class="team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team__list list">
@@ -415,7 +411,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Клиенты -->
       <!-- <section class="client">

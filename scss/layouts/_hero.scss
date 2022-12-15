@@ -10,7 +10,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/mobil/hero-mob.jpeg);
+    url(../images/hero-mob.jpeg);
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -20,7 +20,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/mobil/hero-mob-2x.jpeg);
+      url(../images/hero-mob-2x.jpeg);
   }
 
   @include tablet {
@@ -29,7 +29,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/mobil/hero-tab.jpeg);
+      url(../images/hero-tab.jpeg);
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
@@ -39,7 +39,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/mobil/hero-tab-2x.jpeg);
+        url(../images/hero-tab-2x.jpeg);
     }
   }
 
@@ -58,7 +58,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../images/mobil/hero-2x.jpeg);
+        url(../images/hero-2x.jpeg);
     }
   }
 
