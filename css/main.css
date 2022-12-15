@@ -449,8 +449,9 @@ img {
   display: flex;
   padding: 0px 32px;
   margin-top: 16px;
+  gap: 10px;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .team__social-item {
