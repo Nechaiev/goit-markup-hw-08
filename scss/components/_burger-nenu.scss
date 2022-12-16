@@ -114,6 +114,7 @@ margin-bottom: 64px;
 
 .mobile-social {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 10px;
 }
